@@ -17,7 +17,7 @@ CLI утилита для взаимодействия с API маркетпле
 ## Через PyPI (рекомендуется)
 
 ```bash
-pip install wb-cli
+pip install wb-cli-ai
 ```
 
 ## Из GitHub

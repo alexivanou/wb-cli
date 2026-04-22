@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wb-cli"
+name = "wb-cli-ai"
 version = "0.1.0"
 description = "CLI utility for Wildberries Marketplace"
 authors = ["Aliaksandr Ivanou <alexivanou@gmail.com>"]

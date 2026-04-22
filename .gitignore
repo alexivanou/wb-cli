@@ -34,3 +34,4 @@ htmlcov/
 .tox/
 .DS_Store
 Thumbs.db
+pypi_env/
