@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "wb-cli"
+version = "0.1.0"
+description = "CLI utility for Wildberries Marketplace"
+authors = ["Aliaksandr Ivanou <alexivanou@gmail.com>"]
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+wildberries-python-sdk = "^0.1.11"
+typer = {extras = ["all"], version = "^0.15.1"}
+rich = "^13.9.4"
+pydantic-settings = "^2.7.1"
+pydantic = "^2.10.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-mock = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+wb-cli = "src.cli.main:app"
